@@ -42,5 +42,14 @@ cont perguntas=[
 },
 ];
 
+let atual=0;
+let perguntaAtual;
+
+function mostrapergunta.(){
+    perguntaAtual=perguntas[atual].
+      caixaperguntas.textoContent=perguntaAtual.enunciado;
+}
+
+mostrapergunta();
 
 
