@@ -1,43 +1,47 @@
 const caixaprincipal=document.queryseletor(".caixa-principal");
-cont caixaperguntas=document.queryseletor(".caixa-pergunta");
-cont caixaalternativa=document.queryseletor("caixa-alternativas");
+const caixaperguntas=document.queryseletor(".caixa-pergunta");
+const caixaalternativa=document.queryseletor("caixa-alternativas");
 const caixaresultado=document.query.seletor("caixa-resultado");
 const textoresultado=document.query.seletor("texto-resultados");
 
-cont perguntas=[
+const perguntas=[
   {
     enunciado:"açai ou sorvete?"
       alternativas:[
-         "açai",
-          "sorvete",
-  ]
-},
   {
+  texto:"açai",
+  afirmação: "afirmação",
+  },
+  {,
+  texto:"sorvete",
+  afirmação;"afirmação",
+  },
+  ]
     enunciado:"azul ou vermelho?"
       alternativas:[
-         "azul",
-          "vermelho",
+         texto:"azul",
+          texto:"vermelho",
   ]
 },
   {
     enunciado:"Frio ou calor?"
       alternativas:[
-         "FRio",
-          "calor",
+        texto:"FRio",
+         texto:"calor",
   ]
 },
   {
     enunciado:"outono ou primavera?"
       alternativas:[
-         "outono",
-          "primavera",
+         texto:"outono",
+          texto:"primavera",
   ]
 },
   {
     enunciado:"série ou filme?"
       alternativas:[
-         "filme",
-          "série",
+         texto:"filme",
+          texto:"série",
   ]
 },
 ];
