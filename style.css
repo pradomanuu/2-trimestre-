@@ -25,3 +25,17 @@ padding: 20px
 h1 {
     color: var(--cor-destaque);
 }
+
+button {
+   background-color: var(--cor-secundária);
+  color:var(--cor-texto);
+  border:nome;
+  border-roudius:15px;
+  padding:15px;
+  transition: backgroud-color 0.3s;
+}
+
+button:hover{
+ background-color:var(--cor-destaque);
+  color= var(--cor-principal);
+}
