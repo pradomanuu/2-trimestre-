@@ -1,33 +1,46 @@
-const caixaprincipal=document.queryseletor(".caixa-principal");
-const caixaperguntas=document.queryseletor(".caixa-pergunta");
-const caixaalternativa=document.queryseletor("caixa-alternativas");
-const caixaresultado=document.query.seletor("caixa-resultado");
-const textoresultado=document.query.seletor("texto-resultados");
+const caixaprincipal = document.queryseletor(".caixa-principal");
+const caixaperguntas = document.queryseletor(".caixa-pergunta");
+const caixaalternativa = document.queryseletor("caixa-alternativas");
+const caixaresultado = document.queryseletor("caixa-resultado");
+const textoresultado = document.queryseletor("texto-resultados");
 
-const perguntas=[
+const perguntas = [
   {
-    enunciado:"açai ou sorvete?"
-      alternativas:[
+    enunciado: "açai ou sorvete?"
+    alternativas: [
   {
-  texto:"açai",
-  afirmação: "afirmação",
+    texto: "açai",
+    afirmação: "afirmação",
   },
-  {,
-  texto:"sorvete",
-  afirmação;"afirmação",
-  },
-  ]
-    enunciado:"azul ou vermelho?"
-      alternativas:[
-         texto:"azul",
-          texto:"vermelho",
+  {
+    texto: "sorvete",
+    afirmação: "afirmação",
+  }
   ]
 },
-  {
-    enunciado:"Frio ou calor?"
-      alternativas:[
-        texto:"FRio",
-         texto:"calor",
+{
+    enunciado: "azul ou vermelho?"
+      alternativas: [
+        {
+         texto: "azul",
+          afirmação: "afirmação",
+        },
+        
+          texto:"vermelho",
+          afirmação:  "afirmação",
+        }
+    ]
+},
+{  
+        enunciado: "Frio ou calor?",
+      alternativas: [
+        { 
+        texto: "FRio",
+         afirmação: " afirmação",
+        },
+        {
+          texto: "calor",
+          afirmação
   ]
 },
   {
